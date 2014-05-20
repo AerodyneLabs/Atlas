@@ -1,0 +1,17 @@
+# KiCAD
+## Autosave files
+*_autosave*
+
+## Backup files
+*bak
+*bck
+
+## Temp files
+$*
+
+# VIM
+*~
+*.swp
+
+# Production files
+Hardware/Gerber.zip
