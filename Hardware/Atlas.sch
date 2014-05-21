@@ -1,0 +1,197 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:Aerodyne_v2
+LIBS:Atlas-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "21 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NUCLEO-F401 H?
+U 1 1 537D23D5
+P 2300 1900
+F 0 "H?" H 2300 2900 60  0000 C CNN
+F 1 "NUCLEO-F401" V 2300 1900 60  0000 C CNN
+F 2 "~" H 2300 1900 60  0000 C CNN
+F 3 "~" H 2300 1900 60  0000 C CNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NUCLEO-F401 H?
+U 2 1 537D23EE
+P 2300 4100
+F 0 "H?" H 2300 5100 60  0000 C CNN
+F 1 "NUCLEO-F401" V 2300 4100 60  0000 C CNN
+F 2 "~" H 2300 4100 60  0000 C CNN
+F 3 "~" H 2300 4100 60  0000 C CNN
+	2    2300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L NUCLEO-F401 H?
+U 3 1 537D23FD
+P 2300 6300
+F 0 "H?" H 2300 7300 60  0000 C CNN
+F 1 "NUCLEO-F401" V 2300 6300 60  0000 C CNN
+F 2 "~" H 2300 6300 60  0000 C CNN
+F 3 "~" H 2300 6300 60  0000 C CNN
+	3    2300 6300
+	1    0    0    -1  
+$EndComp
+Text Label 3200 1400 0    60   ~ 0
+SCK
+Text Label 3200 1500 0    60   ~ 0
+MISO
+Text Label 3200 1600 0    60   ~ 0
+MOSI
+Text Label 3200 1700 0    60   ~ 0
+CS
+Text Label 3200 1000 0    60   ~ 0
+SCL
+Wire Wire Line
+	2800 1000 3200 1000
+Text Label 3200 1100 0    60   ~ 0
+SDA
+Wire Wire Line
+	3200 1100 2800 1100
+Text Notes 2900 2800 0    60   Italic 0
+D0
+Text Notes 2900 2700 0    60   Italic 0
+D1
+Text Notes 2900 2600 0    60   Italic 0
+D2
+Text Notes 2900 2500 0    60   Italic 0
+D3
+Text Notes 2900 2400 0    60   Italic 0
+D4
+Text Notes 2900 2300 0    60   Italic 0
+D5
+Text Notes 2900 2200 0    60   Italic 0
+D6
+Text Notes 2900 2100 0    60   Italic 0
+D7
+Text Notes 2900 1900 0    60   Italic 0
+D8
+Text Notes 2900 1800 0    60   Italic 0
+D9
+Text Notes 2900 1700 0    60   Italic 0
+D10
+Text Notes 2900 1600 0    60   Italic 0
+D11
+Text Notes 2900 1500 0    60   Italic 0
+D12
+Text Notes 2900 1400 0    60   Italic 0
+D13
+Wire Wire Line
+	2800 1400 3200 1400
+Wire Wire Line
+	2800 1500 3200 1500
+Wire Wire Line
+	2800 1600 3200 1600
+Wire Wire Line
+	2800 1700 3200 1700
+Text Notes 2900 1100 0    60   Italic 0
+D14
+Text Notes 2900 1000 0    60   Italic 0
+D15
+Text Notes 1700 2300 2    60   Italic 0
+A0
+Text Notes 1700 2400 2    60   Italic 0
+A1
+Text Notes 1700 2500 2    60   Italic 0
+A2
+Text Notes 1700 2600 2    60   Italic 0
+A3
+Text Notes 1700 2700 2    60   Italic 0
+A4
+Text Notes 1700 2800 2    60   Italic 0
+A5
+$Comp
+L MPU9150 U?
+U 1 1 537D23AC
+P 8800 1800
+F 0 "U?" H 8800 2300 60  0000 C CNN
+F 1 "MPU9150" V 8800 1800 60  0000 C CNN
+F 2 "~" H 8800 1800 60  0000 C CNN
+F 3 "~" H 8800 1800 60  0000 C CNN
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MS5611 U?
+U 1 1 537D23BB
+P 8700 2850
+F 0 "U?" H 8700 3100 60  0000 C CNN
+F 1 "MS5611" V 8700 2850 60  0000 C CNN
+F 2 "~" H 8700 2850 60  0000 C CNN
+F 3 "~" H 8700 2850 60  0000 C CNN
+	1    8700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SHT21 U?
+U 1 1 537D23CA
+P 8700 3850
+F 0 "U?" H 8700 4150 60  0000 C CNN
+F 1 "HTU21D" H 8700 3550 60  0000 C CNN
+F 2 "~" H 8700 3850 60  0000 C CNN
+F 3 "~" H 8700 3850 60  0000 C CNN
+	1    8700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SDCARD-FULL-MICRO U?
+U 1 1 537D2B6A
+P 9700 6150
+F 0 "U?" H 9700 6600 60  0000 C CNN
+F 1 "SDCARD-FULL-MICRO" H 9700 5700 60  0000 C CNN
+F 2 "~" H 9700 6150 60  0000 C CNN
+F 3 "~" H 9700 6150 60  0000 C CNN
+	1    9700 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RFD900 U?
+U 1 1 537D3811
+P 6100 5750
+F 0 "U?" H 6100 6200 60  0000 C CNN
+F 1 "RFD900" H 6100 5300 60  0000 C CNN
+F 2 "" H 6100 5000 60  0000 C CNN
+F 3 "" H 6100 5000 60  0000 C CNN
+	1    6100 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L XTEND U?
+U 1 1 537D3820
+P 7500 5900
+F 0 "U?" H 7500 6500 60  0000 C CNN
+F 1 "XTEND" H 7500 5300 60  0000 C CNN
+F 2 "~" H 7500 5900 60  0000 C CNN
+F 3 "~" H 7500 5900 60  0000 C CNN
+	1    7500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L XBEE U?
+U 1 1 537D382F
+P 6150 4250
+F 0 "U?" H 6150 4800 60  0000 C CNN
+F 1 "XBEE" H 6150 3700 60  0000 C CNN
+F 2 "~" H 6700 3300 60  0000 C CNN
+F 3 "~" H 6700 3300 60  0000 C CNN
+	1    6150 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
