@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/24/2014 3:11:25 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/24/2014 4:11:08 PM
 
 BeginCmp
 TimeStamp = /537FCA09;
@@ -113,6 +113,34 @@ IdModule  = CAPC1608-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /5381134F;
+Reference = C15;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53810180;
+Reference = C16;
+ValeurCmp = C;
+IdModule  = CAPC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53811C30;
+Reference = C17;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53811C3B;
+Reference = C18;
+ValeurCmp = 10uF;
+IdModule  = CAPC2012-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /537FBE8B;
 Reference = D1;
 ValeurCmp = NAV;
@@ -127,10 +155,24 @@ IdModule  = NUCLEO-BOTTOM;
 EndCmp
 
 BeginCmp
+TimeStamp = /5381184C;
+Reference = J1;
+ValeurCmp = DC;
+IdModule  = CONN-DC-CUI-202;
+EndCmp
+
+BeginCmp
 TimeStamp = /537FCA22;
 Reference = L1;
 ValeurCmp = L;
 IdModule  = INDC1005-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380FF32;
+Reference = L2;
+ValeurCmp = 4.7uH;
+IdModule  = INDC-SRN4018;
 EndCmp
 
 BeginCmp
@@ -165,6 +207,27 @@ BeginCmp
 TimeStamp = /537FC7CA;
 Reference = R5;
 ValeurCmp = 0;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53810165;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5381012F;
+Reference = R7;
+ValeurCmp = 52.3k;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53811C46;
+Reference = R8;
+ValeurCmp = 10k;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -215,6 +278,13 @@ TimeStamp = /537FB717;
 Reference = U7;
 ValeurCmp = VENUS838LPX-L;
 IdModule  = LGA69;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380FF23;
+Reference = U8;
+ValeurCmp = AOZ1031;
+IdModule  = SOIC127P600-8N;
 EndCmp
 
 EndListe
