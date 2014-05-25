@@ -8,7 +8,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Atlas (Nucleo Shield)"
-Date "24 may 2014"
+Date "25 may 2014"
 Rev "1"
 Comp "Aerodyne Labs"
 Comment1 "eharstad@aerodynelabs.com"
@@ -1397,12 +1397,7 @@ Wire Wire Line
 	2500 9400 2700 9400
 Connection ~ 2700 9400
 Wire Wire Line
-	2800 8300 2800 9200
-Wire Wire Line
 	2800 8600 2500 8600
-Wire Wire Line
-	2800 9200 2500 9200
-Connection ~ 2800 8600
 Wire Wire Line
 	2600 8300 2600 9100
 Wire Wire Line
@@ -1657,4 +1652,11 @@ Wire Wire Line
 Wire Wire Line
 	10300 1800 10300 2000
 Connection ~ 10100 2200
+Text Label 14000 1700 2    60   ~ 0
+LX
+Wire Wire Line
+	2800 8300 2800 8600
+NoConn ~ 2500 9200
+NoConn ~ 1500 9000
+NoConn ~ 1500 9100
 $EndSCHEMATC
