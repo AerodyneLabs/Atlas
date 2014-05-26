@@ -1725,7 +1725,7 @@ Text Label 1300 10100 2    60   ~ 0
 BattV
 Wire Wire Line
 	1300 10100 1500 10100
-Text Label 11000 8400 0    60   ~ 0
+Text Label 11000 8600 0    60   ~ 0
 INT
 Wire Wire Line
 	11000 8400 10900 8400
@@ -1799,4 +1799,12 @@ Wire Wire Line
 	6600 8700 6700 8700
 Wire Wire Line
 	6600 9100 6700 9100
+Text Label 11000 8400 0    60   ~ 0
+LED1
+Text Label 11000 8500 0    60   ~ 0
+LED2
+Wire Wire Line
+	10900 8500 11000 8500
+Wire Wire Line
+	10900 8600 11000 8600
 $EndSCHEMATC
