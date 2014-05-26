@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/24/2014 4:11:08 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/25/2014 10:21:10 PM
 
 BeginCmp
 TimeStamp = /537FCA09;
@@ -148,6 +148,20 @@ IdModule  = LEDC1608-N;
 EndCmp
 
 BeginCmp
+TimeStamp = /5382B2D5;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5382B326;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDC1608-N;
+EndCmp
+
+BeginCmp
 TimeStamp = /537D23EE;
 Reference = H1;
 ValeurCmp = NUCLEO-F401;
@@ -204,9 +218,9 @@ IdModule  = RESC1608-N;
 EndCmp
 
 BeginCmp
-TimeStamp = /537FC7CA;
+TimeStamp = /53829219;
 Reference = R5;
-ValeurCmp = 0;
+ValeurCmp = R;
 IdModule  = RESC1608-N;
 EndCmp
 
@@ -228,6 +242,27 @@ BeginCmp
 TimeStamp = /53811C46;
 Reference = R8;
 ValeurCmp = 10k;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53829234;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5382B2F0;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = RESC1608-N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5382B30B;
+Reference = R11;
+ValeurCmp = R;
 IdModule  = RESC1608-N;
 EndCmp
 
