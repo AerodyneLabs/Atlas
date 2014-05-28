@@ -14,4 +14,4 @@ $*
 *.swp
 
 # Production files
-Hardware/Gerber.zip
+*/Gerber/*
