@@ -8,7 +8,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Atlas (Nucleo Shield)"
-Date "3 jun 2014"
+Date "18 oct 2014"
 Rev "1"
 Comp "Aerodyne Labs"
 Comment1 "eharstad@aerodynelabs.com"
@@ -126,20 +126,6 @@ F 2 "~" H 1800 1350 60  0000 C CNN
 F 3 "~" H 1800 1350 60  0000 C CNN
 	1    1800 1350
 	1    0    0    -1  
-$EndComp
-$Comp
-L SDCARD-FULL-MICRO U3
-U 1 1 537D2B6A
-P 4000 1350
-F 0 "U3" H 4000 1800 60  0000 C CNN
-F 1 "uSD Card" H 4000 900 60  0000 C CNN
-F 2 "~" H 4000 1350 60  0000 C CNN
-F 3 "~" H 4000 1350 60  0000 C CNN
-F 4 "Amphenol" H 4000 1350 60  0001 C CNN "MFR Name"
-F 5 "101-00303-68" H 4000 1350 60  0001 C CNN "MFR Part No"
-F 6 "101-00303-68-1-ND" H 4000 1350 60  0001 C CNN "Distributor Part No"
-	1    4000 1350
-	-1   0    0    -1  
 $EndComp
 $Comp
 L RFD900 U4
@@ -585,7 +571,6 @@ F 3 "" H 8700 2600 60  0000 C CNN
 	1    8700 2600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8800 2000
 $Comp
 L GND #PWR020
 U 1 1 537FBC7D
@@ -1875,4 +1860,26 @@ F 8 "5%" H 6750 900 50  0001 C CNN "Tolerance"
 	1    6750 1100
 	1    0    0    -1  
 $EndComp
+Text Label 8600 2000 2    60   ~ 0
+PPS
+Wire Wire Line
+	8600 2000 8800 2000
+Text Label 11000 9100 0    60   ~ 0
+PPS
+$Comp
+L SDCARD-FULL-MICRO U3
+U 1 1 5442EFB9
+P 4000 1450
+F 0 "U3" H 4000 2000 60  0000 C CNN
+F 1 "uSD Card" H 4000 900 60  0000 C CNN
+F 2 "~" H 4000 1550 60  0000 C CNN
+F 3 "~" H 4000 1550 60  0000 C CNN
+F 4 "Amphenol" H 4000 1450 60  0001 C CNN "MFR Name"
+F 5 "101-00303-68" H 4000 1450 60  0001 C CNN "MFR Part No"
+F 6 "101-00303-68-1-ND" H 4000 1450 60  0001 C CNN "Distributor Part No"
+	1    4000 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 9100 10900 9100
 $EndSCHEMATC
