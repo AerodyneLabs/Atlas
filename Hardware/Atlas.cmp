@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/18/2014 5:17:32 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/30/2014 10:08:24 AM
 
 BeginCmp
 TimeStamp = /537FCA09;
 Reference = AE1;
 ValeurCmp = W30311A;
-IdModule  = ANT-W3011A;
+IdModule  = SMA_Edge;
 EndCmp
 
 BeginCmp
@@ -179,7 +179,7 @@ BeginCmp
 TimeStamp = /537FCA22;
 Reference = L1;
 ValeurCmp = DNP;
-IdModule  = INDC1005-N;
+IdModule  = INDC1608-N;
 EndCmp
 
 BeginCmp
@@ -187,6 +187,13 @@ TimeStamp = /5380FF32;
 Reference = L2;
 ValeurCmp = 4.7uH;
 IdModule  = INDC-SRN4018;
+EndCmp
+
+BeginCmp
+TimeStamp = /5452576C;
+Reference = L3;
+ValeurCmp = L;
+IdModule  = INDC1608-N;
 EndCmp
 
 BeginCmp
@@ -288,7 +295,7 @@ IdModule  = SON100P300X300X110-7N;
 EndCmp
 
 BeginCmp
-TimeStamp = /537D2B6A;
+TimeStamp = /5442EFB9;
 Reference = U3;
 ValeurCmp = uSD Card;
 IdModule  = uSD_AMPH_101-00303;
